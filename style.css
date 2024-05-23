@@ -1,6 +1,12 @@
 :root{
     --topspacing: 50px;
     --sidespacing: 200px;
+    --color1: #d0ddef;
+    --color2: #ffa585;
+    --color3: #FF7F50;
+    --color4: #80A4ED;
+    --color5: #BCD3F2;
+    
 }
 html, body {
     margin: 0;
@@ -8,14 +14,14 @@ html, body {
   }
   html {
     font-family: verdana;
-    background-color: white;
+    background-color: var(--color1);
   }
   
   #menubar {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #dddddd;
+    background-color: var(--color4);
     overflow: hidden;
   }
   
@@ -35,20 +41,20 @@ html, body {
   #menubar a {
     display: block;
     padding: 10px 20px;
-    background-color: #dddddd;
+    background-color: var(--color4);
     text-decoration: none;
     color: black;
     text-align: center;
   }
   
   #menubar a:hover {
-    background-color: #ddd;
+    background-color: var(--color2);
     color: black;
   }
   
   #menubar a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: var(--color3);
+    color: black;
   }
   
   
@@ -58,24 +64,25 @@ html, body {
     text-align: center;
     font-size: 30px;
     padding: 20px;
-    background-color: aqua;
+    background-color: var(--color4);
     margin: 0px var(--sidespacing);
     margin-top: var(--topspacing);
   }
   
   #textcontent {
     margin: 0px var(--sidespacing);
-    background-color: rebeccapurple;
+    background-color: var(--color5);
     padding: 5px 20px;
   }
 
   #nextbutton{
-    background-color: beige;
+    background-color: var(--color4);
     text-align: center;
     width: 200px;
     position: absolute;
     right: 200px;
     margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   #nextbutton a{
@@ -95,5 +102,26 @@ html, body {
   #nextbutton a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  #quoteblock {
+    font-style: italic;
+    padding: 20px 50px;
+    line-height: 30px;
+  }
+
+  #textcontent p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  #imageheading{
+    font-size: 10px;
+    padding-top: 0px;
+    font-style: italic;
   }
   
