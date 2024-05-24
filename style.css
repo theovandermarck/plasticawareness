@@ -1,11 +1,13 @@
 :root{
     --topspacing: 50px;
     --sidespacing: 200px;
+    --sidespacing2: 300px;
     --color1: #d0ddef;
     --color2: #ffa585;
     --color3: #FF7F50;
     --color4: #80A4ED;
     --color5: #BCD3F2;
+    --color6: #fda98a;
     
 }
 html, body {
@@ -72,11 +74,11 @@ html, body {
   #textcontent {
     margin: 0px var(--sidespacing);
     background-color: var(--color5);
-    padding: 5px 20px;
+    padding: 25px 20px;
   }
 
   #nextbutton{
-    background-color: var(--color4);
+    background-color: var(--color2);
     text-align: center;
     width: 200px;
     position: absolute;
@@ -96,6 +98,7 @@ html, body {
   }
 
   #nextbutton a:hover {
+    background-color: var(--color3);
     color: black;
   }
   
@@ -125,3 +128,9 @@ html, body {
     font-style: italic;
   }
   
+  #footnotes {
+    background-color: var(--color5);
+    margin: 200px var(--sidespacing2);
+    padding: 5px 20px;
+    margin-bottom: 100px;
+  }
