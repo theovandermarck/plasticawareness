@@ -18,6 +18,10 @@ html, body {
     font-family: verdana;
     background-color: var(--color1);
   }
+  pre{
+    text-align: center;
+    font-family: verdana;
+  }
   
   #menubar {
     margin: 0;
