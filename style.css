@@ -94,7 +94,7 @@ html, body {
     height: 100px;
     text-align: center;
     line-height: 100px;
-    color:black
+    color:black;
   }
 
   #nextbutton a:hover {
@@ -124,7 +124,7 @@ html, body {
     height: 100px;
     text-align: center;
     line-height: 100px;
-    color:black
+    color:black;
   }
 
   #backbutton a:hover {
@@ -164,4 +164,9 @@ html, body {
     padding: 5px 20px;
     margin-bottom: 100px;
     line-height: 10px;
+  }
+
+  #magic{
+    margin: 100px var(--sidespacing2);
+    padding: 5px 20px;
   }
